@@ -1,0 +1,10 @@
+# List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
+tasks:
+  - name: Install dependencies
+    init: pip install -r requirements.txt
+  - name: Run the app
+    command: python app.py
+    openMode: split-right
+  - name: Run a demo cli command
+    command: python app.py authentication --help
+    openMode: split-left

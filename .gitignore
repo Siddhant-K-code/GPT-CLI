@@ -1,0 +1,10 @@
+/venv
+/build
+/dist/app
+**/__pycache__/
+**/app.spec
+**/cache.db
+**/cache.db-journal
+**/cache.db-shm
+**/cache.db-wal
+**/cache
